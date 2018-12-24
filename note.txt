@@ -13,3 +13,19 @@
 <a href="http://google.com">Go to Google</a>
 <!--새로운 창을 열기 위해서는 target="_blank"-->
 <a href="http://google.com" target="_blank">Go to Google(target_blank)</a>
+
+
+<!-- 2-4. Our first HTML document -->
+<!-- 기존 2-3 내용은 note.txt로 이동시켰습니다. -->
+<!-- <!DOCTYPE html>는 self-contained 태그. 닫을 필요 없습니다.-->
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>This is my title</title>
+</head>
+<body>
+    <h1>This is my big Title</h1>
+    <h6>This is my samll Title</h6>
+</body>
+</html>
