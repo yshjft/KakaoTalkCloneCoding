@@ -29,3 +29,25 @@
     <h6>This is my samll Title</h6>
 </body>
 </html>
+
+<!-- 2-5. Adding meta information to our documnet -->
+<!-- <!DOCTYPE html>는 self-contained 태그. 닫을 필요 없습니다.-->
+<!-- meta는 extra 추가적인 정보 -->
+<!-- charset 사용언어에 맞도록 알아서 잘 설정할 것 -->
+<!-- meta name="description"은 검색하였을 때 밑에 간략하게 나요는 설명글 -->
+<!-- meta 태그의 내용 다양. 특정 플랫폼만을 위하여 존재하기도 함. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nomad Coders">
+    <meta name="description" content="Welcome to my Kakao Clone">
+    <title>This is my title</title>
+</head>
+<body>
+    <h1>This is my big Title</h1>
+    <h6>This is my samll Title</h6>
+
+</body>
+</html>
