@@ -51,3 +51,27 @@
 
 </body>
 </html>
+
+
+<!-- 2-6.  Semantic vs Non Semantic Tags -->
+<!-- semantic/non-semantic 의미O/의미X -->
+<!-- div, span은 non-semantic  -->
+<!-- header, article(항목), section들은 semantic-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nomad Coders">
+    <meta name="description" content="Welcome to my Kakao Clone">
+    <title>This is my title</title>
+</head>
+<body>
+    <h1>This is my big Title</h1>
+    <section>This is an important section</section>
+    <article>This is an important article</article> 
+    <div>Whatever</div>
+    <span>something else</span>
+    <h6>This is my samll Title</h6>
+</body>
+</html>
