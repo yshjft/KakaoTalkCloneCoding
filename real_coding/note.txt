@@ -1,0 +1,5 @@
+div.header__top == <div class="header__top"></div>
+
+div.header__column*3 ==<div class="header__column"></div>
+                       <div class="header__column"></div>
+                       <div class="header__column"></div>
