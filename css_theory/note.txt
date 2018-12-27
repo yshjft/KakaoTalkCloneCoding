@@ -1,0 +1,10 @@
+/* 3-2. CSS Syntax */
+
+h1{
+    property-name: value;
+}/*selecotr*/
+
+
+/*3-3. Mixing CSS with HTML*/
+inline 방식 : 비효율적
+외부 파일 : 효율적
