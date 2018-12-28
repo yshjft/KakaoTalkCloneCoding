@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Position</title>
+    <style>
+        body, html{
+            height: 100%;
+            margin:0;
+            padding:0;
+        }
+
+        body{
+            height:400%;
+            background-color:red;
+        }
+        /*postion fixed 
+        #boxOne{
+            height:300px;
+            width:300px;
+            background-color: yellow;
+            position:static;
+        }
+        #boxTwo{
+            height:300px;
+            width:100%;
+            background-color: green;
+            position: fixed;
+            bottom:30%;
+            left:30%;
+        } */
+
+        
+        .abs-box{
+            width:400px;
+            height:400px;
+            background-color:yellow;
+            position: relative;
+        }
+        .abs-child{
+            width:100px;
+            height:100px;
+            background-color: green;
+            position:absolute;
+            /* relative가 존재하지 않을 경우 absolute는 body를 기준을 선정한다. */
+            right:10px;
+            top:10px;
+            
+        }
+
+      
+    </style>
+</head>
+<body>
+    <!-- positio fixed 
+    <div id="boxOne">
+        <div class="box-child"></div>
+    </div>
+    <div id="boxTwo">
+        <div class="box-child"></div>
+    </div>
+-->
+
+
+    <div class="abs-box">
+        <div class="abs-child"></div>
+    </div>
+</body>
+</html>

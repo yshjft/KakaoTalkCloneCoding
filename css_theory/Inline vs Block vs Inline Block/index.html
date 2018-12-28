@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inline Example</title>
+    <style>
+        .block_box{
+            background-color:red;
+            width:200px;
+            height:200px;
+            border: 1px solid blue;
+        }
+        .inline_block_box{
+            background-color:red;
+            width:200px;
+            height:200px;
+            border: 1px solid blue;
+            display:inline-block;
+        }
+        .inline_text{
+            background-color:red;
+            border: 2px solid blue;
+            display:inline;
+            /* 박스에서 설정한 높이와 폭은 적용안됨
+            오로지 작성한 컨텐츠의 폭과 높이만이 적용
+            박스 아니다. 텍스트다. */
+        }
+    </style>
+</head>
+<body>
+    <div class="block_box"></div>
+    <div class="block_box"></div>
+    <div class="block_box"></div>
+
+    </br>
+
+    <div class="inline_block_box"></div>
+    <div class="inline_block_box"></div>
+    <div class="inline_block_box"></div>
+
+    </br>
+
+    <span class="inline_text">1</span>
+    <span class="inline_text">1</span>
+    <span class="inline_text">1</span>
+
+</body>
+</html>
