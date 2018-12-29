@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS state</title>
+    <style>
+        .box{
+            background-color: red;
+            font-size: 40px;
+        }
+        .box:hover{
+            background-color: pink;
+        }
+        .box:active{
+            background-color:green;
+        }
+        .box:focus{
+            background-color: blue;
+        }
+        /* focus로 인하여 hover 명령어 먹히지 않는다.
+        focus>hover */
+
+    </style>
+</head>
+<body>
+    <textarea class="box">lalalalala</textarea>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page Title</title>
+    <style>
+        input[type='submit']{
+            background-color:red;
+        }
+
+       /* .box:nth-child(2n+1){
+            background-color:pink;
+        }  */
+        
+        /* +는 형제(input + .box), > 직계 자식(input > .box) */
+        .container> .box{
+           background-color:yellow 
+        }
+
+        .box{
+            background-color: green;
+            display:block;
+            height:50px;
+            border:1px solid black;
+
+        }
+
+        .child{
+            width: 40px;
+        }
+  
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="box child"></div>
+        </div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box">
+            <input type="password" required="required">
+            <input type="submit">
+        </div>
+    </div>
+</body>
+</html>
