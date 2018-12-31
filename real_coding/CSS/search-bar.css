@@ -1,7 +1,16 @@
 .search-bar{
   padding: 10px 25px;
   position: relative;
+  z-index: -1;
 }
+
+.top-header{
+  z-index:200;
+}
+
+/* search-bar문제를 어떻게 해결해야 할지 정확히
+몰라 z-index를 사용하여 top-header를 무조건 앞
+으로 배치 */
 
 .search-bar input{
   width:100%;

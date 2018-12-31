@@ -37,6 +37,10 @@
 }
 /* text-align:정렬 */
 
+.top-header .header__bottom .header__column:first-child{
+  color : rgba(255, 255, 255, 0.5);
+}
+
 .top-header .header__number{
   color: yellow;
 }
