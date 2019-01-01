@@ -4,7 +4,13 @@
   padding : 5px 10px 15px 10px;
   position:fixed;
   width:100%;
-  top:0
+  top:0;
+  z-index: 2;
+}
+/* z-index를 search-bar에서 준것과 무엇이 차이? */
+
+.top-header a{
+  color :white;
 }
 
 .top-header .header__top,

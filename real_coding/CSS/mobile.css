@@ -1,0 +1,7 @@
+@media screen and (min-width: 430px){
+  .bigScreenText{
+    display: flex;
+  }
+}
+
+/* 수정 필요 min-width 530안됨*/

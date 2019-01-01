@@ -1,16 +1,7 @@
 .search-bar{
   padding: 10px 25px;
   position: relative;
-  z-index: -1;
 }
-
-.top-header{
-  z-index:200;
-}
-
-/* search-bar문제를 어떻게 해결해야 할지 정확히
-몰라 z-index를 사용하여 top-header를 무조건 앞
-으로 배치 */
 
 .search-bar input{
   width:100%;
@@ -18,14 +9,16 @@
   /* (상하),(좌우) */
   box-sizing: border-box;
   /* 박스의 크기를 테두리 기준으로 정한다. */
-  border:0;
+  border: 1px solid transparent;
   border-radius:5px;
   background-color:#f1f2f3;
   text-align:center;
+  transition: border-color .2s linear;
 }
 
 .search-bar input:focus{
   outline: none;
+  border-color: #ffe94a;
 }
 
 .search-bar i{
